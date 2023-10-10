@@ -1,6 +1,7 @@
 
 import './App.css';
 import IncreaseAge from './components/IncreaseAge';
+import TypeText from './components/TypeText';
 
 
 const App = () => {
@@ -9,6 +10,12 @@ const App = () => {
       
       <div>
         <IncreaseAge/>
+      </div>
+
+      <hr/>
+
+      <div>
+        <TypeText/>
       </div>
     
 
